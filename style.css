@@ -1240,7 +1240,8 @@ strong {
 
   .nav__list {
     position: fixed;
-    top: 0;
+    inset-block-start: 72px;
+    /*top: 0; */
     inset-inline: 0;
     background-color: rgba(253, 250, 245, 0.97);
     backdrop-filter: blur(16px);
